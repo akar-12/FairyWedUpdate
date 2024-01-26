@@ -1,0 +1,88 @@
+/* AdminDashboard.css */
+
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .wrapper {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    position: fixed; 
+    height: 100%; 
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display list items in a row */
+    flex-direction: column; /* Set the direction to column */
+  }
+  
+  .sidebar nav ul li {
+    padding: 10px 0;
+    cursor: pointer;
+    width: 100%; /* Set the width to 100% for full-width items */
+    text-align: center; /* Center the text */
+  }
+  
+  .sidebar nav ul li:hover {
+    background: #555;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 220px; 
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background: #eee;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .add-venue-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
